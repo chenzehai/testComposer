@@ -1,0 +1,21 @@
+{
+  "name": "chenzehai/testcomposer",
+  "description": "my frist package",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "chenzehai",
+      "email": "644186268@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php":">=5.6"
+  },
+  "autoload":{
+    "psr-4":{
+      "czhPackage\\package\\":"src/czhPackage/package"
+    }
+  }
+}
